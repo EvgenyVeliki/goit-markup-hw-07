@@ -1,8 +1,22 @@
-.our-work-item {
+.our__work-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--maim-txt-cl);
+}
+
+.our__work-list {
+  display: flex;
+  gap: 30px;
+}
+
+.our__work-item {
   position: relative;
 }
 
-.our-work-txt {
+.our__work-txt {
   font-weight: 700;
   width: 100%;
   line-height: calc(16 / 14);
@@ -17,18 +31,4 @@
   justify-content: center;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.our-work-list {
-  display: flex;
-  gap: 30px;
-}
-
-.our-work-title {
-  margin-bottom: 50px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  color: var(--maim-txt-cl);
 }

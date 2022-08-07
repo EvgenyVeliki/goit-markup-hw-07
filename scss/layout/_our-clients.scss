@@ -4,16 +4,15 @@
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
-  letter-spacing: 0.03em;
   color: var(--maim-txt-cl);
 }
 
-.our-clients-list {
+.our-clients__list {
   display: flex;
   gap: 30px;
 }
 
-.our-clients-link {
+.our-clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +30,6 @@
   }
 }
 
-.our-clients-icon {
+.our-clients__icon {
   fill: currentColor;
 }
