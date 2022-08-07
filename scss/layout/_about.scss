@@ -1,0 +1,30 @@
+.about {
+  padding-bottom: 0;
+
+  &-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  &-item {
+    flex-basis: 270px;
+  }
+  &-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--maim-txt-cl);
+  }
+
+  &-uppertitle {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--p-txt-cl);
+  }
+}
