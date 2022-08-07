@@ -1,29 +1,29 @@
-:root {
+/* :root {
   /* ===============================Founts */
-  --main-front: 'Roboto', sans-serif;
-  --secondary-front: 'Raleway', sans-serif;
-  /* ===============================Text colors */
-  --contacts-txt-cl: rgba(255, 255, 255, 0.6);
-  --maim-txt-cl: #212121;
-  --p-txt-cl: #757575;
-  --logo-txt-cl: #000000;
-  /*=============================== bg colors */
-  --dark-bg-cl: #2f303a;
+/* --main-front: 'Roboto', sans-serif; */
+/* --secondary-front: 'Raleway', sans-serif; */
+/* ===============================Text colors */
+/* --contacts-txt-cl: rgba(255, 255, 255, 0.6); */
+/* --maim-txt-cl: #212121; */
+/* --p-txt-cl: #757575; */
+/* --logo-txt-cl: #000000; */
+/*=============================== bg colors */
+/* --dark-bg-cl: #2f303a; */
 
-  --our-team-bg-cl: #f5f4fa;
-  --header-bg-cl: #ffffff;
-  --button-bg-cl: #2196f3;
-  --line-bg-cl: #e5e5e5;
-  --button-main-bg-cl: #188ce8;
-  --icons-bg-cl: #afb1b8;
-  /* ===============================Other color */
-  /* Animation */
-  --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* --our-team-bg-cl: #f5f4fa; */
+/* --header-bg-cl: #ffffff; */
+/* --button-bg-cl: #2196f3; */
+/* --line-bg-cl: #e5e5e5; */
+/* --button-main-bg-cl: #188ce8; */
+/* --icons-bg-cl: #afb1b8; */
+/* ===============================Other color */
+/* Animation */
+/* --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* } * */
 
-/* ==============================Reset styles */
+/* ==========/====================Reset styles */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -40,17 +40,17 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 
-body {
+/* body {
   font-family: var(--main-front);
   color: var(--maim-txt-cl);
   background-color: var(--header-bg-cl);
   font-size: 14px;
   letter-spacing: 0.03em;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -62,14 +62,14 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /* ==============================Base styles */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 .section {
   padding-top: 94px;
